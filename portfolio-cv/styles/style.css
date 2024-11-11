@@ -1,0 +1,64 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffcb05;
+}
+
+#header{
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.section-text {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.experience-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.experience-text {
+    color: #777;
+    text-align: justify;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.project-card .card-body {
+    text-align: center;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    font-size: 1.1rem;
+}
+
+#header {
+    background: linear-gradient(135deg, #333 30%, #555);
+    padding: 100px 0;
+}
+
+footer {
+    background: #333;
+    color: #ccc;
+}
